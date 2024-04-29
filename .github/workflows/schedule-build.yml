@@ -3,7 +3,7 @@ name: Schedule Build
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "30 4 * * *" # every day 4:30am UTC
 
 jobs:
   build:
